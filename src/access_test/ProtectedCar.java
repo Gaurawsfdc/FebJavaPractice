@@ -1,8 +1,11 @@
-package access_modifier;
+package access_test;
 
-public class ProtectedCar extends ProtectedVehicle{
+import access_modifier.ProtectedVehicle;
+
+public class ProtectedCar extends ProtectedVehicle {
     public void showDetails(){
         System.out.println("Brand of the car = " + brand);
+        displayBrand();
     }
 
 

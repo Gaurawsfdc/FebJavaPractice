@@ -1,6 +1,6 @@
 package access_modifier;
 
-public class Person {
+public class PrivatePerson {
     private int height;
 
     private void displayHeight(){
