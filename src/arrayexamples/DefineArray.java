@@ -9,7 +9,7 @@ public class DefineArray {
         we can write 1) datatype[] arrayname 2) datatype arrayname[];
         we can use advance for loop to iterate each array and print it one by one
          */
-        int[] arraynum = {10, 20, 30, 40};
+        int[] arraynum = {10, 20, 20, 40};
 
         // printing the particular number of array
         System.out.println("index 2 value = " + arraynum[2]);
@@ -30,13 +30,13 @@ public class DefineArray {
         arraynum1[0]= 50;
         arraynum1[1]= 60;
         arraynum1[2]= 70;
-        arraynum1[3]= 80;
-        System.out.println("arraynum1 values = " + arraynum1[1]);
+        arraynum1[3]= 70;
+        System.out.println("arraynum1 values = " + arraynum1[3]);
 
         // reverse the array
         for(int i=arraynum1.length-1; i>= 0; i--){
             System.out.print(arraynum1[i] + " ");
-            arraynum1[2]= 100;  // changing the value here
+            //arraynum1[2]= 100;  // changing the value here
         }
 
         int[] arraynum2 = {90, 100, 110, 120};
